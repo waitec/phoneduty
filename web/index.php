@@ -41,7 +41,7 @@ if (null !== $userID) {
     }
 
     $twilioResponse = new Services_Twilio_Twiml();
-    $response = sprintf("You've called the Aurora Energy RSG tech team. The current on-call person is %s. %s "
+    $response = sprintf("You have called the Aurora Energy RSG tech team. The current on-call person is %s. %s "
         . "Please hold while we connect you.",
         $user['first_name'],
         $time
